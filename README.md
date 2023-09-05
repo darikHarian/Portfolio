@@ -7,4 +7,4 @@ En este sitio pretendo mostrar mis grandes logros y avances en mis proyectos tan
 <p>
     Par visulaizar el contenido solo haz click en el siguiente enlace:
 </p>
-<a href="https://darikharian.github.io/Portfolio/">Portafolio</a>
+<a href="https://darikharian.github.io/Portfolio/" target="_blank">>> Portafolio <<</a>
