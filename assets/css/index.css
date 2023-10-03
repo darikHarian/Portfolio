@@ -1,5 +1,5 @@
 body {
-    background: url('../img/bg-dark.jpg');
+    background: url('../img/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -17,4 +17,8 @@ body {
 .nav-item:hover {
     background:#424242!important;
     border-radius: 7px;
+}
+
+.w-10 {
+    width: 10% !important;
 }
