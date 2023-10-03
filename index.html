@@ -12,40 +12,42 @@
     <title>Darik's Portfolio</title>
 </head>
 <body>
-    <header>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-primary navbar-dark fixed-top">
-            <button class="navbar-toggler fixed-top w-10 ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#header-navbar" aria-controls="header-navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="container-fluid">
-                
-                <a href="#" class="navbar-brand d-flex w-50 mx-auto"><img src="./assets/img/logo-white.png" class="w-100 pt-1" alt="Logo"></a>
-                <div class="collapse navbar-collapse" id="header-navbar">
-                    <ul class="navbar-nav ms-auto my-4">
-                        <li class="nav-item w-100 text-center">
-                            <a href="#" class="nav-link active">Inicio</a>
-                        </li>
-                        <li class="nav-item w-100 text-center">
-                            <a href="#" class="nav-link">Desarrollo</a>
-                        </li>
-                        <li class="nav-item w-100 text-center">
-                            <a href="#" class="nav-link">Fotografía</a>
-                        </li>
-                        <li class="nav-item w-100 text-center">
-                            <a href="https://github.com/darikHarian" target="_blank" class="nav-link">GitHub</a>
-                        </li>
-                    </ul>
+    <div class="bg-blur position-absolute">
+        <header>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg bg-primary navbar-dark fixed-top rounded-bottom-4">
+                <button class="navbar-toggler fixed-top hamb ms-3 mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#header-navbar" aria-controls="header-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="container-fluid">
+                    
+                    <a href="#" class="navbar-brand d-flex w-50 mx-auto"><img src="./assets/img/logo-white.png" class="w-100 pt-1" alt="Logo"></a>
+                    <div class="collapse navbar-collapse" id="header-navbar">
+                        <ul class="navbar-nav ms-auto my-4">
+                            <li class="nav-item w-100 text-center">
+                                <a href="#" class="nav-link active">Inicio</a>
+                            </li>
+                            <li class="nav-item w-100 text-center">
+                                <a href="#" class="nav-link">Desarrollo</a>
+                            </li>
+                            <li class="nav-item w-100 text-center">
+                                <a href="#" class="nav-link">Fotografía</a>
+                            </li>
+                            <li class="nav-item w-100 text-center">
+                                <a href="https://github.com/darikHarian" target="_blank" class="nav-link">GitHub</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+            </nav>
+        </header>
+        <main class="container mt-5 pt-5">
+            <div id="profile" class="d-flex justify-content-center">
+                <img src="./assets/img/profile.png" class="w-50" alt="Profile Image">
             </div>
-        </nav>
-    </header>
-    <main class="container mt-5 pt-5">
-        <div id="profile" class="d-flex justify-content-center">
-            <img src="./assets/img/profile.png" class="w-50" alt="Profile Image">
-        </div>
-        <p>Hola!</p>
-        <p>Texto</p>
-    </main>
+            <p>Hola!</p>
+            <p>Texto</p>
+        </main>
+    </div>
 </body>
 </html>
