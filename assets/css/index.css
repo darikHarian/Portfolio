@@ -4,8 +4,8 @@
 }
 
 .py-6 {
-    padding-top: 6vh;
-    padding-bottom: 6vh;
+    padding-top: calc(70%/5);
+    padding-bottom: calc(70%/5);
 }
 
 .fs-7 {
@@ -17,6 +17,12 @@
 }
 
 /* GENERAL */
+html {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
 .main-body {
     background: url('../img/background.jpg');
     background-size: cover;
@@ -25,7 +31,6 @@
     color: #fff;
 }
 
-/* NAVBAR */
 .bg-blur {
     background: rgba(0,0,0,.3);
     backdrop-filter: blur(1px);
@@ -33,19 +38,25 @@
     width: 100%;
 }
 
+/* NAVBAR */
 .hamb {
     width: 70px !important;
-    background: rgba(27,27,27,.5)
+    background: rgba(48,80,120,.5)
 }
 
 .navbar-blur {
-    background: rgba(0,0,0,.3);
-    backdrop-filter: blur(4px);
+    background: rgba(31,42,55,.8);
+    backdrop-filter: blur(10px);
     height: auto;
 }
 
+.navbar-brand > i {
+    transform: rotate(45deg);
+}
+
 .nav-link-bg {
-    background: rgba(27,27,27,.7)
+    background: rgb(48,66,87);
+    background: linear-gradient(0deg, rgba(48,66,87,0.9) 0%, rgba(67,92,120,0.9) 50%);
 }
 
 /* CONTENT */
@@ -55,9 +66,10 @@
 
 #main-frame {
     width: 90vw;
-    height: 89vh;
+    height: 80vh;
 }
 
 footer {
     height: 20px;
+    background: rgb(31,42,55)
 }
